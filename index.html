@@ -28,6 +28,45 @@
     </a>
     
     <h2>How to run the programme/use the code</h2>
+
+    <h3>Using a Terminal:</h3>
+
+    <h4>Using Python virtual environment:</h4>
+    <ol>
+      <li>Download the code or clone the repository using the command <code>$git clone
+    git@github.com:Lexi-BU/lxi_gui.git</code></li>
+      <li>Create a virtual environment using the command <code>$python3 -m venv
+    lexi_gui_env</code> (or any other name you want to give to the environment)
+        (for Ubuntu)<br>
+        a. Might need to install the python3 venv package using the command
+        <code>$sudo apt-get install python3-venv</code> (for Ubuntu)
+      </li>
+      <li>Activate the virtual environment using the command <code>$source
+    lexi_gui_env/bin/activate</code></li>
+      <li>Install the required packages using the command <code>$pip install -r
+    requirements.txt</code></li>
+      <li>Run the file <code>lxi_gui.py</code> using the command <code>$python lxi_gui.py</code> (or
+        <code>$python3 lxi_gui.py</code> if you have both python2 and python3 installed).
+      </li>
+      <li>Can also run the file by simply using the command <code>$./lxi_gui.sh</code> (if
+        the file is an executable file).</li>
+    </ol>
+
+    <h4>Using Poetry:</h4>
+    <ol>
+      <li>Download the code or clone the repository using the command <code>$git clone
+       git@github.com:Lexi-BU/lxi_gui.git</code></li>
+      <li>cd into the folder using the command <code>$cd lxi_gui</code></li>
+      <li>Install poetry using the command <code>$pip install poetry</code></li>
+      <li>Install the required packages using the command <code>$poetry install</code></li>
+      <li>Start the virtual environment using the command <code>$poetry shell</code></li>
+      <li>Run the file <code>lxi_gui.py</code> using the command <code>$python lxi_gui.py</code> (or
+        <code>$python3 lxi_gui.py</code> if you have both python2 and python3 installed).
+      </li>
+      <li>Can also run the file by simply using the command <code>$./lxi_gui.sh</code> (if the file is
+        an executable file).</li>
+    </ol>
+
     <h3>For Windows:</h3>
     <ol>
       <li>
