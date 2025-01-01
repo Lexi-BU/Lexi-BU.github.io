@@ -39,3 +39,58 @@
     text-decoration: underline;
 }
 
+    /* Make the body take full height */
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    /* Set the body to use flexbox */
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+    /* Set the main content to grow and shrink as needed */
+    .wy-grid-for-nav {
+      flex: 1;
+    }
+    /* Ensure the table has some basic styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    /* Additional styles for the back button */
+    .back-btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+    .back-btn:hover {
+      background-color: #01ff0e;
+    }
+    /* Footer styles */
+    footer {
+      margin-top: auto; /* Push the footer to the bottom */
+      background-color: #f1f1f1;
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
