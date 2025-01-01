@@ -94,3 +94,14 @@
       text-align: left;
       font-size: 14px;
     }
+
+    .aligncenter {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    }
+
+    .aligncenter figcaption {
+    text-align: center;
+    padding-top: 2em; /* Adjust the value as needed */
+    }
